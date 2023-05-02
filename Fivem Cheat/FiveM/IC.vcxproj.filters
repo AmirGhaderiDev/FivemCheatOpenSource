@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{7c3a572c-ed2c-4341-ba55-562715249f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{816f464d-06f4-4283-bfe9-c1cd36bfe4a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{292d6f07-78a6-4db4-b4fe-cb7bd8c43746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{5faaabb9-8115-4d02-8bad-bc7e20a2a71e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{97a75583-126d-4384-b256-a6860a3698b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\kiero">
+      <UniqueIdentifier>{3d18c92d-f594-46f7-b9ec-49de34c6db25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\kiero\Minhook">
+      <UniqueIdentifier>{851de1ee-dfe6-4e95-a4a0-832674599e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\kiero\Minhook\hde">
+      <UniqueIdentifier>{a62687f3-cfd6-4397-9c05-ebbe6e1edb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\kiero\imgui">
+      <UniqueIdentifier>{98cb15c9-1086-446e-8531-df29dc23b98a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\kiero.cpp">
+      <Filter>Hooks\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\minhook\src\hook.c">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\minhook\src\trampoline.c">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\minhook\src\buffer.c">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\minhook\src\hde\hde32.c">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\minhook\src\hde\hde64.c">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Hooks\kiero\imgui\imgui_demo.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\imgui\imgui_draw.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\imgui\imgui_impl_dx11.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\imgui\imgui_impl_win32.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\imgui\imgui_widgets.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\kiero\imgui\imgui.cpp">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Features\Aimbot.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ESP.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\FMemoryManager.hpp">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\MathManager.hpp">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\MenuManager.hpp">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BoneHashes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Font.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Globals.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\includes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SDK.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Vector.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WeaponHashes.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\InputHook.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\kiero.h">
+      <Filter>Hooks\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\trampoline.h">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\buffer.h">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\hde\hde32.h">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\hde\hde64.h">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\hde\pstdint.h">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\hde\table32.h">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\src\hde\table64.h">
+      <Filter>Hooks\kiero\Minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\minhook\include\MinHook.h">
+      <Filter>Hooks\kiero\Minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.hpp">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Vehicles.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imgui.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imgui_impl_dx11.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imgui_impl_win32.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imgui_internal.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imgui_style.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imstb_rectpack.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imstb_textedit.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imstb_truetype.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\kiero\imgui\imconfig.h">
+      <Filter>Hooks\kiero\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Radar.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\NPCEESP.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ObjectESP.hpp">
+      <Filter>Features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

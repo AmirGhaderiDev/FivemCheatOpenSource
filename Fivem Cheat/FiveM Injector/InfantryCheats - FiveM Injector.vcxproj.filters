@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="LoadLibraryInjector">
+      <UniqueIdentifier>{516c0ef4-bfd2-45e0-ac5b-ead6c731a42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{8bb40c4e-c546-4722-94aa-7f9c67ecae93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MM">
+      <UniqueIdentifier>{73bb900d-1ed7-4eaf-8728-5317104991b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LL.cpp">
+      <Filter>LoadLibraryInjector</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LL.h">
+      <Filter>LoadLibraryInjector</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualMap.cpp">
+      <Filter>MM</Filter>
+    </ClInclude>
+    <ClInclude Include="ManualMap.h">
+      <Filter>MM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
